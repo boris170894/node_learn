@@ -1,5 +1,93 @@
-body {
-  background-color: red;
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Black.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+  font-weight: 500;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+input[type=email], input[type=text] {
+  border: none;
+  background-color: transparent;
+  outline: 0;
+}
+
+.btn {
+  width: 100%;
+  border: 1px solid #ff3d00;
+  color: #ff3d00;
+  border-radius: 5px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #ff3d00;
+  color: white;
+}
+
+.btn.second {
+  width: 100%;
+  border: 1px solid #0085ff;
+  color: #0085ff;
+  border-radius: 5px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.btn.second:hover {
+  background-color: #0085ff;
+  color: white;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */

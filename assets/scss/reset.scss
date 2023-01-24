@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+}
+
+input[type =email], input[type =text]{
+    border: none;
+    background-color: transparent;
+    outline: 0;
+}
